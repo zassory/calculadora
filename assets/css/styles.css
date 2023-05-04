@@ -1,0 +1,170 @@
+.calculadora {
+  width: 100%;  
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #4F4542;
+  margin-bottom: 0px;
+}
+.pantalla{
+  width: 100%;
+  background-color: #F25525;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 0;
+}
+
+h1{
+  text-align: center;
+  color:white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h3{
+  text-align:left;
+  padding-left: 3%;
+  color: white;
+  font-size: 2rem;
+}
+@media (max-width:576px){
+  .container {
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #BFD2E2;
+    padding-bottom:  3rem; 
+  }
+  .operaciones {
+    background-color:#2595F2;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;    
+  }
+  
+  .numeros{
+    background-color: #E1E9EF;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+  .numeros p{
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .numeros:hover {
+    cursor: pointer;
+  }
+  .item {
+    grid-row: 2 / 6;
+    grid-column: 4;
+  }
+  .btnAc{
+    background-color: #DD3107;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;    
+  }
+  .btnAc p {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+
+@media screen and (min-width: 577px){
+    .container {      
+      max-width: 100%;
+      display: grid;
+      grid-template-rows: 20% 20% 20% 20% 20%;
+      grid-template-columns: 25% 25% 25% 25%;
+      background-color: #BFD2E2;
+      padding-bottom:  3rem;
+    }
+    .operaciones {
+      background-color:#2595F2;
+      color: white;
+      font-size: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: .5rem;
+      margin-top: 1rem;
+      margin-left: .5rem;
+      margin-right: .5rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .operaciones:hover {
+      cursor: pointer;
+    }
+    .numeros{
+      background-color: #E1E9EF;  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: .5rem;
+      margin-top: 1rem;
+      margin-left: .5rem;
+      margin-right: .5rem;
+    }
+    .numeros:hover {
+      cursor: pointer;
+    }
+    .numeros p{
+      color: black;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .item {
+      grid-row: 2 / 6;
+      grid-column: 4;
+    }
+    .btnAc{
+      background-color: #DD3107;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: .5rem;
+      margin-top: 1rem;
+      margin-left: .5rem;
+      margin-right: .5rem;    
+    }
+    .btnAc p {
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .btnAc:hover{
+      cursor:pointer;
+    }
+    
+    .pantalla h3{
+      font-size: 4rem;
+    }
+}
+
+
+
+
+
+
